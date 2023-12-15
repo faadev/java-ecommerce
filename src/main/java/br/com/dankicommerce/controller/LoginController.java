@@ -7,9 +7,10 @@ import br.com.caelum.vraptor.Path;
 @Controller
 @Path("login")
 public class LoginController {
-
+	
 	@Get("")
 	public void login() {
-		
+System.out.println("Angola");
 	}
+
 }
